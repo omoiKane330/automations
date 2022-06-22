@@ -1,0 +1,30 @@
+Log in page - 
+
+1. Validate if User name, Password field and submit button are present
+2. Validate if User is able to enter CORRECT username and password credentials and click on Submit -> Navigates or makes visible a element in the intended page
+3. Validate if User on entering wrong creds gets a Error message or a chance to re-enter the credentials
+
+
+Data Entry - 
+
+1. There is a valid field for user to input integer in it
+2. Validate if String,charatcer or Decimal values are not allowed to be entered in the entry field
+3. Validate if the entered value is same as the value that is read and assert the same
+
+
+Validation of 4 times a day - 
+
+1. Create a fresh user record. Try and do the sugar level as integer entry 5 times in a series. There should be a error message for the save of the 5th itteration.
+2. Create a fresh user record. Enter the sugar level as in=teger entry 3 times. Enter a integer value in the field and clear it from the field without saving. Now try to enter a new value. It should be allowed to enter as the 4th entry was not saved and this should be taken as 4th entry.
+
+
+Reports - 
+
+1. Validate if the 3 report options are displayed in the UI- Daily, Month to Date and Monthly
+2. Validate upon clicking on the date selector a Calendar widget is opened with the current month and year in default
+3. Validate if the user is able to select any speicified date in the calendar
+4. On selecting some DD/MM/YYYY and opting for Daily report - Validate if the report shows only one date which should be the specified date(Range - DD/MM/YY)
+5. On selecting some DD/MM/YYYY and opting for Month to date report - Validate if the report starts on the 1st of the specified month and the Report last date is the specified date in the same month.(Range - 01/MM to DD/MM)
+6. On selecting some DD/MM/YYYY and opting for Monthly report - Validate if user is only able to select Month from the calendar and not date. The report should have the data for 01/MM to 30/MM or 31/MM based on month selected
+7. Validate if Max, min and average data points are availabe and visible in all the reports
+8. Validate if Max and Min are the highest and the lowest entries respectively in the given data range

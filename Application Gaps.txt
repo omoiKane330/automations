@@ -1,0 +1,13 @@
+Application Gaps - 
+
+1. Log out feature
+2. The warning label should reduce by number of times the entry is already done. If 2 enteries are already done, then warning should show 2 more entries left for the day
+3. Have options to iterate throgh desired date on Daily reports
+4. When entering string instead of int in enter level field, it should throw a error instead of only taking the int present in the string
+5. Edit option for levels should be provided. Instead of the delete and enter new value again
+
+
+Found one BUG while automating- 
+
+1. When in reports page, select the "Monthly" form and navigate back to "Daily" by clicking on the text. 
+On clicking Daily, it is showing the Date as the next calender date to the current date. Even if there is no data for the mentioned date
